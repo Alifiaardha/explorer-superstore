@@ -6,14 +6,14 @@ Proyek ini menggunakan **Cleaned Superstore Dataset** untuk melakukan analisis p
 
 ## 📂 Struktur Proyek
 - `Cleaned Superstore Dataset.csv` → Dataset utama yang sudah dibersihkan
-- `superstore.sql` → Query SQL untuk membuat tabel, load data, dan analisis
+- `queries_superstore.sql` → Query SQL untuk membuat tabel, load data, dan analisis
 - `README.md` → Dokumentasi proyek
 
 ---
 
 ## 🛠️ Setup Database
 1. Buat database baru di PostgreSQL (misalnya: `dataset_superstore`).
-2. Jalankan script `superstore.sql` untuk:
+2. Jalankan script `queries_superstore.sql` untuk:
    - Membuat tabel `superstore_cleaned`
    - Load data dari CSV
    - Menjalankan query analisis
